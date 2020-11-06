@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>꾀병 키트</title>
+
+
+	<style type="text/css">
+	  @font-face { 
+      font-family: 'Spoqa'; 
+      src: url('/fonts/Spoqa Han Sans Bold.woff/') 
+      format('woff'); 
+      font-weight: normal; 
+      font-style: normal; }
+
+    @font-face { 
+      font-family: 'Gong_M'; 
+      src: url('/fonts/Gong Gothic OTF Medium.otf/') 
+      format('otf'); 
+      font-weight: normal; 
+      font-style: normal; }
+
+    @font-face { 
+      font-family: 'Gong_B'; 
+      src: url('/fonts/Gong Gothic OTF Bold.otf/') 
+      format('otf'); 
+      font-weight: normal; 
+      font-style: normal; }
+
+    @font-face { 
+      font-family: 'Gong_L'; 
+      src: url('/fonts/Gong Gothic OTF Light.otf/') 
+      format('otf'); 
+      font-weight: normal; 
+      font-style: normal; }
+
+	
+		.mainsubfont{
+			top: 130px;
+			left: 158px;
+			font-family: 'spoqa';
+			font-size: 13pt;
+			color: white;
+		}
+
+		.mainfont{
+			top: 105px;
+			left: 155px;
+			font-family: 'Gong_M';
+			font-size: 50pt;
+			color: white;}
+
+    .subfont{
+      font-family: 'Gong_L'
+    }
+
+		
+    header{}
+    	.bg-main{
+        background: url('main1.jpg');
+        background-size: 100% auto; }
+		
+
+
+		body, h2, ol, li, ul{
+			  margin: 0;
+    		padding: 0;}
+
+    	nav{text-decoration: none;
+    		background: #6DB781;
+    		width: 100%;
+    		height: 78px;}
+    		
+    	nav a{	
+			display: block; 
+			color:white;
+			text-decoration: none;}
+
+    	nav ol{
+    		width: 100%;
+    		background: #6DB781;
+    		height: 78px;}
+    	nav li{
+    		width: 33.3%;
+    		list-style-type: none;
+    		background: #6DB781;
+    		height: 78px;
+    		text-align: center;
+    		line-height: 78px;
+    		float: left;}
+    	.nav1 : hover{
+    		font-family: 'spoqa';
+    		display: block;
+    		transition: background 0.3s;
+    		background: #707070;
+    	}
+
+
+
+		 a{	
+			display: block; 
+			color:white;
+			text-decoration: none;}
+		
+		.button1{
+			font-family: 'spoqa';
+			background: #D1D1D1;
+			width: 238px; 
+			height: 78px;
+			text-align: center;
+			line-height: 78px;
+			font-size: 30pt;
+			border-radius: 42px;}
+
+		.button1 :hover{
+			display: block;
+			transition: background 0.3s;
+			background: #707070;
+			color: white;
+			border-radius: 42px;}
+		
+		.button2{
+			font-family: 'spoqa';
+			background: #6DB781;
+			width: 238px; 
+			height: 78px;
+			text-align: center;
+			line-height: 78px;
+			font-size: 30pt;
+			border-radius: 42px;}
+
+		.button2 :hover{
+			display: block;
+			transition: background 0.3s;
+			background: #E01F10;
+			color: white;
+			border-radius: 42px;}
+
+    	footer{background: #F0F0F0; height: 500px; padding-top: 20px;}
+    	
+		</style>
+</head>
+<body>
+	<header class='bg-main'>
+			<div class="mainsubfont">
+			<p>누구에게나 꾀병이 필요한 순간이 있다</p></div>
+			<div class="mainfont">
+			<p> 꾀병 키트 </p></div>
+		
+			<br>
+			<br>
+			
+			
+		</div>
+	</div>
+	</header>
+	<style>
+  		
+  		ul,li{list-style:none;}
+  #slide{height:300px;position:relative;overflow:hidden;
+  		margin-left: 300px;
+  		margin-right:800px}
+  #slide ul{width:500px;height:500px;transition:0.7s;}
+  #slide ul:after{content:"";display:block;clear:both;}
+  #slide li{float:left; width:2000px;height:500px;}
+  #slide li:nth-child(1){background:#faf;}
+  #slide li:nth-child(2){background:#ffa;}
+  #slide li:nth-child(3){background:#faF;}
+  #slide li:nth-child(4){background:#aaf;}
+  #slide input{display:none;}
+
+  #slide label{
+  	display:inline-block;
+  	vertical-align:middle;
+  	width:7px;height:7px;
+  	border:1px solid #707070;
+  	background:#fff;
+  	transition:0.3s;
+  	border-radius:50%;
+  	cursor:pointer;}
+
+  #slide .pos{
+  	padding-left: 125px;
+  	position:absolute;
+  	bottom:0px;
+  	left:0;width:25%;
+  	text-align:center;}
+  #pos1:checked~ul{margin-left:0%;}
+  #pos2:checked~ul{margin-left:-500px;}
+  #pos3:checked~ul{margin-left:-1000px;}
+  #pos4:checked~ul{margin-left:-1500px;}
+
+  #pos1:checked~.pos>label:nth-child(1){background:#707070;}
+  #pos2:checked~.pos>label:nth-child(2){background:#707070}
+  #pos3:checked~.pos>label:nth-child(3){background:#707070;}
+  #pos4:checked~.pos>label:nth-child(4){background:#707070;}
+</style>
+<div id="slide">
+  <input type="radio" name="pos" id="pos1" checked>
+  <input type="radio" name="pos" id="pos2">
+  <input type="radio" name="pos" id="pos3">
+  <input type="radio" name="pos" id="pos4">
+  <ul>
+    <li><img src="/Users/majiyellow/Desktop/img/boxmockup.jpg" width="500px"></li>
+    <li>
+    	<img src="/Users/majiyellow/Desktop/img/boxmockup.jpg" width="500">
+    </li>
+    <li>
+    	<img src="/Users/majiyellow/Desktop/img/boxmockup.jpg" width="500"></li>
+    <li>
+    	<img src="/Users/majiyellow/Desktop/img/boxmockup.jpg" width="500">
+    </li>
+  </ul>
+  <p class="pos">
+    <label for="pos1"></label>
+    <label for="pos2"></label>
+    <label for="pos3"></label>
+    <label for="pos4"></label>
+  </p>
+</div>
+
+</body>
+
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+		<div class="button1">
+		<a href="" target="">담아두기</a></div></p>
+		<div class="button2">
+		<a href="" target="">결제하기</a></div></p>
+	<nav>
+		<ol>
+			<li><div class="nav1">
+				<a href="" target="">구성품</a></li></div>
+			<li>
+				<a href="" target="">상세 이미지</a></li>
+			<li>
+				<a href="" target="">사용 예시</a></li>
+		</ol>
+	</nav>
+</html>
