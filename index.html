@@ -36,8 +36,7 @@
 	
 		.mainsubfont{
 			display: block; 
-			padding-top: 97px;
-			padding-left: 120px;
+
 			font-family: 'Spoqa';
 			font-size: 17.25px;
 			color: white;
@@ -45,7 +44,7 @@
 		.mainfont{
 			display: block; 
 			padding-top: 3px;
-			padding-left: 120px;
+			
 			font-family: 'Gong_M';
 			font-size: 70px;
 			color: white;}
@@ -179,6 +178,7 @@
 		.col-content{float: left; width: 182px; height: 75px; background: white;}
 		.col-cross{width: 34.5px; height: 34.5px; background: white; margin: 5px 5px;}
 		.col-title{width: 135.75px; height: 34.5px; background: white; margin: 5px 5px;}
+		.col-main{padding-top: 97px;padding-left: 120px;width:273.75px; margin: 0px 0px;}
 		img{width: 100%;}
 		
 		
@@ -190,10 +190,12 @@
 <body>
 	<header class='bg-main'>
 		<div class="row-main0">
-			<div class="mainsubfont">
-			누구에게나 꾀병이 필요한 순간이 있다</div>
-			<div class="mainfont">
-			꾀병 키트 </div>
+			<div class="col-main">
+				<div class="mainsubfont">
+				누구에게나 꾀병이 필요한 순간이 있다</div>
+				<div class="mainfont">
+				꾀병 키트 </div>
+			</div>
 		</div>
 	</header>
 	
@@ -203,9 +205,7 @@
 	<style>
   		
   		ul,li{list-style:none;}
-  #slide{height:300px;position:relative;overflow:hidden;
-  		margin-left: 300px;
-  		margin-right:800px}
+  #slide{height:300px;position:relative;overflow:hidden;}
   #slide ul{width:500px;height:500px;transition:0.7s;}
   #slide ul:after{content:"";display:block;clear:both;}
   #slide li{float:left; width:2000px;height:500px;}
@@ -241,6 +241,7 @@
   #pos3:checked~.pos>label:nth-child(3){background:#707070;}
   #pos4:checked~.pos>label:nth-child(4){background:#707070;}
 </style>
+	
 <div id="slide">
   <input type="radio" name="pos" id="pos1" checked>
   <input type="radio" name="pos" id="pos2">
