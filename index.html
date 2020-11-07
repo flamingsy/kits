@@ -40,8 +40,7 @@
 			font-family: 'Spoqa';
 			font-size: 17pt;
 			color: white;
-		}
-
+			}
 		.mainfont{
 			padding-top: 3px;
 			padding-left: 120px;
@@ -53,13 +52,23 @@
 			text-align:center;
     			font-family: 'Gong_L';
 			color: #2E2E2E;
+			font-size: 26pt;
  			 }
+		.subnav{
+			font-family: 'Gong_M';
+			color: white;
+			font-size: 30pt;
+			}
 		.subtitle{
-			background:#6DB781;
-		}
+			font-family: 'Gong_M';
+			color: #2E2E2E;
+			font-size: 33pt;
+		.buttonfont{
+			font-family: 'Gong_L';
+			font-size: 22.5pt;
+			}
 
 		
-    header{}
     	.bg-main{
 		
       			background: url('main1.jpg');
@@ -75,7 +84,7 @@
     		background: #6DB781;
     		width: 100%;
     		height: 58.5px;
-		text-size: 30px;}
+		}
     		
     	nav a{	text-size: 30px;
 		display: block; 
@@ -96,7 +105,6 @@
     		float: left;}
 		
     	.nav1 : hover{
-    		font-family: 'spoqa';
     		display: block;
     		transition: background 0.3s;
     		background: #707070;
@@ -110,8 +118,6 @@
 			text-decoration: none;}
 		
 		.button1{
-			font-family: 'Gong_L';
-			font-size: 22.5pt;
 			background: #D1D1D1;
 			width: 178.5px; 
 			height: 58.5px;
@@ -123,12 +129,9 @@
 			display: block;
 			transition: background 0.3s;
 			background: #707070;
-			color: white;
 			border-radius: 31.5px;}
 		
 		.button2{
-			font-family: 'Gong_L';
-			font-size: 22.5pt;
 			background: #6DB781;
 			width: 178.5px; 
 			height: 58.5px;
@@ -140,7 +143,6 @@
 			display: block;
 			transition: background 0.3s;
 			background: #024E17;
-			color: white;
 			border-radius: 31.5px;}
 		
 	body{margin: 0;}
@@ -247,9 +249,11 @@
   <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
 		<div class="button1">
-		<a href="" target="">담아두기</a></div></p>
+		<a href="" target="">
+			<div class="buttonfont">담아두기</div></a></div></p>
 		<div class="button2">
-		<a href="" target="">결제하기</a></div></p>
+		<a href="" target="">
+			<div class="buttonfont">결제하기</div></a></div></p>
 	<nav>
 		<ol>
 			<li>
@@ -302,7 +306,7 @@
 			<li>
 				<a href="" target="none"> </a></li>
 			<li><div class="nav1">
-				<a href="" target="">구성품</a></li></div>
+				<a href="" target="none">구성품</a></li></div>
 		</ol>
 	</nav>
 <br>
@@ -426,7 +430,7 @@
 			<li>
 				<a href="" target="none"> </a></li>
 			<li><div class="nav1">
-				<a href="" target="">상세 이미지</a></li></div>
+				<a href="" target="none">상세 이미지</a></li></div>
 		</ol>
 	</nav>
 
@@ -435,7 +439,7 @@
 			<li>
 				<a href="" target="none"> </a></li>
 			<li><div class="nav1">
-				<a href="" target="">사용 예시</a></li></div>
+				<a href="" target="none">사용 예시</a></li></div>
 		</ol>
 	</nav>
 
