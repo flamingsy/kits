@@ -166,6 +166,51 @@
 			background: #024E17;
 			border-radius: 31.5px;}
 		
+navmain{
+	width: 367px;
+	display: flex;
+}
+ul, li {
+	margin:0;
+	padding: 0;
+	list-style: none
+}
+
+#main-menu > li {
+	background: gray;
+}
+#main-menu > li > a {
+	display: block;
+	font-size: 22.5px;
+	text-decoration: underline;
+	color: #2E2E2E;
+}
+
+#sub-menu{
+	background: red;
+	opacity: 0;
+	visibility: hidden;
+}
+#sub-menu > li {
+	display: block;
+	font-size: 22.5px;
+	background: white;
+	color: #2E2E2E;
+	
+}
+#sub-menu > li > a {
+	display: block;
+	font-size: 22.5px;
+	background: #D1D1D1
+	color: white;
+}
+
+#main-menu > li : hover #sub-menu{
+	opacity: 1;
+	visibility: visible;
+	transition: background 0.3s;
+}
+		
 	body{margin: 0;}
 		.row-1{overflow: hidden; width:910px; background: black; margin: auto; display: flex;}
 		.row-2{overflow: hidden; width:633px; background: black; margin: auto; display: flex;}
@@ -233,6 +278,15 @@
 				<div class="topsubfont">19,000 원</div>
 			</div>
 			<div class="col-cate">
+				<div class="navmain">
+				<ul id="main-menu">
+					<li><a href="#">선택 사항</a></li>
+					<ul id="sub-menu">
+					<li><a href="#">환자복 추가 (+9000원)</a></li>
+					<li><a href="#">진단서 추가 (+3000원)</a></li>
+					</ul>
+				</ul>
+				</div>
 			</div>
 			<div class="col-button">
 				<div class="button1">
