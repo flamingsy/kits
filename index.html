@@ -205,11 +205,11 @@
 		
 		
 		
-navmain{
+.nav-main{
 	width: 367px;
 	display: flex;
 }
-ul, li {
+.nav-main .ul, li {
 	
 	margin:0;
 	padding: 0;
@@ -288,7 +288,7 @@ ul, li {
 			.col-slide{overflow: hidden; width: 375px; height: 375px;background: yellow;}
 		.col-topparent{padding-left: 86.25px; width: 450px;background: blue;}
 			.col-toptitle{width: 135.75px; height: 135px; margin: 0px 0px;background: gray;}
-			.col-cate{overflow: hidden; width: 367px; height: 36px; margin: 0px 0px; padding-top: 120px; background: gray;}
+			.col-cate{width: 367px; height: 36px; margin: 0px 0px; padding-top: 120px; background: gray;}
 			.col-button{display: flex; float: left; width: 367px; height: 59px; margin: 0px 0px; padding-top: 75px; background: gray;}
 		
 		img{width: 100%;}
@@ -315,8 +315,9 @@ ul, li {
 	<div class="col-7"></div>
 	
 	<div class="row-top">
-		<div class="col-slide">
+<div class="col-slide">
 			<div id="slide">
+				
   <input type="radio" name="pos" id="pos1" checked>
   <input type="radio" name="pos" id="pos2">
   <input type="radio" name="pos" id="pos3">
@@ -355,7 +356,7 @@ ul, li {
 				<div class="topsubfont">19,000 원</div>
 			</div>
 			<div class="col-cate">
-				<div class="navmain">
+				<div class="nav-main">
 				<ul id="main-menu">
 					<li><a href="#">선택 사항</a></li>
 					<ul id="sub-menu">
